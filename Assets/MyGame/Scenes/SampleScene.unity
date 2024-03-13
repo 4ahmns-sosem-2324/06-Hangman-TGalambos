@@ -384,6 +384,177 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2053656859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2053656861}
+  - component: {fileID: 2053656860}
+  - component: {fileID: 2053656862}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2053656860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053656859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f269c00038bee4fbb86953cfff3399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wortListen: {fileID: 2053656862}
+--- !u!4 &2053656861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053656859}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2053656862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053656859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8b6945c32046c4e914f64f0593b971, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  words:
+  - apple
+  - banana
+  - orange
+  - grape
+  - kiwi
+  words10:
+  - apple
+  - banana
+  - orange
+  - grape
+  - kiwi
+  - melon
+  - peach
+  - pear
+  - strawberry
+  - pineapple
+  words100:
+  - apple
+  - banana
+  - orange
+  - grape
+  - kiwi
+  - melon
+  - peach
+  - pear
+  - strawberry
+  - pineapple
+  - watermelon
+  - blueberry
+  - raspberry
+  - blackberry
+  - cherry
+  - apricot
+  - fig
+  - lime
+  - lemon
+  - mandarin
+  - coconut
+  - pomegranate
+  - plum
+  - mango
+  - nectarine
+  - peanut
+  - cashew
+  - almond
+  - walnut
+  - hazelnut
+  - avocado
+  - passionfruit
+  - dragonfruit
+  - guava
+  - cantaloupe
+  - persimmon
+  - lychee
+  - kiwifruit
+  - grapefruit
+  - tangerine
+  - boysenberry
+  - cranberry
+  - elderberry
+  - gooseberry
+  - loganberry
+  - mulberry
+  - papaya
+  - quince
+  - starfruit
+  - jackfruit
+  - durian
+  - rhubarb
+  - date
+  - fig
+  - custardapple
+  - soursop
+  - kiwano
+  - breadfruit
+  - plantain
+  - acai
+  - mangosteen
+  - sugarapple
+  - longan
+  - kumquat
+  - ackee
+  - rambutan
+  - salak
+  - feijoa
+  - santol
+  - cupuacu
+  - pitaya
+  - saskatoon
+  - soursop
+  - miraclefruit
+  - jabuticaba
+  - bignay
+  - burah
+  - kepel
+  - mabolo
+  - mamoncillo
+  - nance
+  - pequi
+  - pindaiba
+  - yantok
+  - dabai
+  - bittermelon
+  - carambola
+  - cherimoya
+  - sapote
+  - tamarillo
+  - wampee
+  - yuzu
+  - atemoia
+  - breadnut
+  - cempedak
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -391,3 +562,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 204414996}
   - {fileID: 1689737755}
+  - {fileID: 2053656861}
