@@ -63,7 +63,7 @@ public class Manager : MonoBehaviour
     public WortListen wortListen;
     public Text chosenWordText;
     public InputField inputField;
-    public char[] guessedCharacter;
+    public char[] guessedCharacter = new char[26];
     public GameObject[] hangmanParts; 
     private int current;
 
@@ -103,9 +103,10 @@ public class Manager : MonoBehaviour
         }
     }
 
-    void GuessLetter()
-    {
 
+    public void GuessLetter()
+    {
+        
     }
 
     public void Hangman()
