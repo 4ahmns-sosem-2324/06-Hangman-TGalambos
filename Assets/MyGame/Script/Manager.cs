@@ -61,7 +61,11 @@ public class Manager : MonoBehaviour
 
 
     public WortListen wortListen;
-    public Text chosenWordText; 
+    public Text chosenWordText;
+    public InputField inputField;
+    public char[] guessedCharacter;
+    public GameObject[] hangmanParts; 
+    private int current;
 
     string chosenWord; 
 
@@ -91,6 +95,27 @@ public class Manager : MonoBehaviour
         Debug.Log(GetRandomWord(wortListen.words10));
         Debug.Log(GetRandomWord(wortListen.words100));
 
-        chosenWordText.text = chosenWord; 
+        chosenWordText.text = chosenWord;
+
+        for (int i = 0; i < hangmanParts.Length; i++)
+        {
+            hangmanParts[i].SetActive(false);
+        }
+    }
+
+    void GuessLetter()
+    {
+
+    }
+
+    public void Hangman()
+    {
+        hangmanParts[current].SetActive(true);
+        current++;
+
+        if (current == hangmanParts.Length)
+        {
+            Debug.Log("L");
+        }
     }
 }
