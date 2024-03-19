@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; 
 
 public class Manager : MonoBehaviour
 {
@@ -59,7 +60,8 @@ public class Manager : MonoBehaviour
     */
 
 
-    public WortListen wortListen; 
+    public WortListen wortListen;
+    public Text chosenWordText; 
 
     string chosenWord; 
 
@@ -88,5 +90,7 @@ public class Manager : MonoBehaviour
         Debug.Log(chosenWord);
         Debug.Log(GetRandomWord(wortListen.words10));
         Debug.Log(GetRandomWord(wortListen.words100));
+
+        chosenWordText.text = chosenWord; 
     }
 }
